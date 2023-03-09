@@ -5,10 +5,6 @@ import {MdOutlineFoodBank} from 'react-icons/md'
 export const food = {
   burgers: [
     {
-      id: 9901,
-      mainImage: 'https://cdn.tasteatlas.com/images/dishes/df459d9fe5ad400e8bf69e4f25d9cf12.jpg?mw=1300'
-    },
-    {
       id: 1,
       name: 'Luger Burger',
       image: 'https://coolmaterial.com/wp-content/uploads/2014/05/luger-burger.jpg',
@@ -131,10 +127,6 @@ export const food = {
   ],
   pizza: [
     {
-      id: 9900,
-      mainImage: 'https://cdn.tasteatlas.com//images/dishes/785295d4ab6f4f0bab43d5fcf2e123b6.jpg?mw=1300'
-    },
-    {
       id: 16,
       name: 'Pizza Napoletana',
       image: 'https://cdn.tasteatlas.com//images/dishes/785295d4ab6f4f0bab43d5fcf2e123b6.jpg?w=905&h=510',
@@ -226,10 +218,6 @@ export const food = {
     },
   ],
   snacks: [
-    {
-      id: 9902,
-      mainImage: 'https://cdn.tasteatlas.com//images/dishes/7e44f5dd6dc547009fa957b89cb9bf19.jpg?mw=660'
-    },
     {
       id: 26,
       name: 'Gyoza',

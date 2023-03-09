@@ -1,6 +1,6 @@
 
 import { GetStarted, SearchForm } from '../components'
-import Categories from '../components/Categories'
+import {Categories, Menu} from '../components'
 
 
 const Home = () => {
@@ -22,6 +22,8 @@ const Home = () => {
               </div>
 
               <Categories />
+
+              <Menu />
               
           </div>
           <div className='bg-white h-full w-full px-4 py-2 md:pl-24 md:py-4 md:pr-2 hidden lg:grid'>
