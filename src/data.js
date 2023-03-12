@@ -324,7 +324,7 @@ export const categories = [
     icon: <FaPizzaSlice />
   },
   {
-    title: 'snack',
+    title: 'snacks',
     icon: <MdOutlineFoodBank />
   },
 ]

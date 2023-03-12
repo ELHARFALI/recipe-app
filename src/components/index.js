@@ -6,6 +6,7 @@ import Categories from './Categories'
 import Menu from "./Menu";
 import SingleItem from "./SingleItem";
 import Row from "./Row";
+import GridView from "./GridView";
 
 export {
     SideBar,
@@ -15,5 +16,6 @@ export {
     Categories,
     Menu,
     SingleItem,
-    Row
+    Row,
+    GridView
 }
