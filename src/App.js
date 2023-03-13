@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { SideBar, SideBarMobile } from "./components";
 import { data } from "./data";
-import Home from "./pages/Home";
+import {Home, SinglePage} from "./pages";
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         <SideBarMobile />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/items/:id" element={<SinglePage />} />
       </Routes>
       
     </BrowserRouter>

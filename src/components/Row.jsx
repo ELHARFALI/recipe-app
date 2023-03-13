@@ -23,7 +23,7 @@ const Row = ({rowId, data, title}) => {
                 {data.map((item) => {
                     const { id, image, name, price } = item
                     return (
-                    <SingleItem  key={id} image={image} name={name} price={price} />
+                    <SingleItem  key={id} id={id} image={image} name={name} price={price} />
                     )
                 })}
             </div>
